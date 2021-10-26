@@ -1,0 +1,82 @@
+
+.m-10{margin:10px;}
+
+.m-t-10{margin-top:10px;}
+
+.m-r-10{margin-right:10px;}
+
+.m-l-10{margin-left:10px;}
+
+.h-10{height:10px;}
+
+.m-auto{margin:auto;}
+
+.justify-content-right{
+    float:right;
+    margin-right: 0;
+}
+
+.Main-content{
+    word-wrap: break-word;    
+}
+
+.input-main-content{
+    min-height: calc(9.5em + (.75rem + 2px)) !important;
+}
+.input-main-issue{
+    min-height: calc(8.5em + (.75rem + 2px)) !important;
+}
+.input-main-other{
+    min-height: calc(6.5em + (.75rem + 2px)) !important;
+}
+
+.report-content{
+    min-height: calc(30em + (.75rem + 2px)) !important;
+}
+
+.container-margin
+{
+    margin-top: 50px
+}
+
+.red-text{
+    color:red;
+}
+
+.fadeUp {
+    animation-name: fadeUpAnime;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes fadeUpAnime {
+    from {
+        opacity: 0;
+        transform: translateY(-50px); 
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); 
+    }
+}
+
+.react-datepicker__input-container input{
+    height:40px;
+    width:150px;
+    border-radius: 7px;
+    text-align: center;
+    border: 1px solid #e4e6ef;
+}
+
+.create-header{
+    border: 1px solid;
+    border-width: 0 0 1px 0;
+    border-color: lightgray;
+    box-shadow: 0 19px 30px 0 rgb(82 63 105 / 5%);
+    background: #fcfcfc;
+    position:fixed;
+    width:570px
+}
+
+
